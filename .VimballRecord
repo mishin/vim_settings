@@ -1,1 +1,2 @@
 supertab.vba: call delete('/home/b00/.vim/doc/supertab.txt')|call delete('/home/b00/.vim/plugin/supertab.vim')
+getscript.vba: call delete('/home/b00/.vim/plugin/getscriptPlugin.vim')|call delete('/home/b00/.vim/autoload/getscript.vim')|call delete('/home/b00/.vim/GetLatest/GetLatestVimScripts.dist')|call delete('/home/b00/.vim/doc/pi_getscript.txt')
