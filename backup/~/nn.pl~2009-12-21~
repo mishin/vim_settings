@@ -1,0 +1,14 @@
+#!/usr/bin/perl;
+
+#===============================================================================
+#  REVISION:      $Id:$
+#  AUTHORS:       dimio (www.dimio.org, dimio@dimio.org)
+#  CREATED:       
+#  DESCRIPTION:   Perl script
+#===============================================================================
+require v5.8.8;
+use warnings;
+use strict;
+our $VERSION = 0.01;
+print $VERSION,"\n";
+exit 0;

@@ -1,0 +1,71 @@
+#some config of the script
+SRCD="/ home/b00"               #SRCD - SouRCe Directory - исходный каталог
+bkp="/media/EXTERNAL/BackUP"
+
+# Проверяем существование целевой директории (в моем случае - внешний диск),
+# если не существует - отменяем выполнение скрипта.
+if ! test -d ${bkp}
+then
+    echo -n  Target directory \"${bkp}\" not exist.
+	exit 0
+fi
+
+#backing up homedir
+#tar zcpvf /media/EXTERNAL/test1.tgz --exclude=Games --exclude=Music --exclude=Maps --exclude=.thumbnails --exclude=*/Trash --exclude=*/drive_c --exclude=Library --directory /home/ b00/
+
+tar zcpf $bkp/b00-homedir.tar.gz --exclude=Games --exclude=Music --exclude=Maps --exclude=.thumbnails --exclude=*/Trash --exclude=*/drive_c --exclude=Library --directory $SRCD
+#&& gzip -9 /home/b00/test.tar
+
+#backing up config files
+cp -p /etc/hosts $bkp/hosts
+cp -p /etc/resolv.conf $bkp/resolv.conf
+cp -p /etc/rc.local $bkp/rc.local
+# cp -p /etc/fstab $bkp/fstab
+cp -p /etc/network/interfaces $bkp/interfaces
+cp -p /etc/apt/sources.list $bkp/sources.list
+cp -p /etc/default/prelink $bkp/prelink
+cp -p /etc/modprobe.d/blacklist-framebuffer $bkp/blacklist-framebuffer
+cp -p /etc/mplayer/mplayer.conf $bkp/mplayer.conf
+cp -p /etc/lsb-base-logging.sh $bkp/lsb-base-logging.sh
+tar zcf $bkp/Xsession.d.tar.gz /etc/X11/Xsession.d/
+
+cp -p /boot/grub/menu.lst $bkp/menu.lst
+# cp -p /usr/bin/mase $bkp/mase
+# cp -p /usr/bin/chkmail $bkp/chkmail
+# cp -p /usr/bin/mdig $bkp/mdig
+# cp -p /usr/bin/colorwhois $bkp/colorwhois
+# cp -p $SRCD/.bashrc $bkp/.bashrc
+# cp -p $SRCD/.vimrc $bkp/.vimrc
+# cp -p $SRCD/.exult.cfg $bkp/.exult.cfg
+# cp -p $SRCD/.wgetrc $bkp/.wgetrc
+# cp -p $SRCD/.Wammu $bkp/.Wammu
+# cp -p $SRCD/.scummvmrc $bkp/.scummvmrc
+# cp -p $SRCD/.crontab $bkp/.crontab
+# cp -p $SRCD/.nanorc $bkp/.nanorc
+
+
+#backing up packages tree
+#dpkg -l | grep ii | awk '{print $2}' > $bkp/packages_tree
+dpkg --get-selections > $bkp/packages_tree
+#Обратное действие:
+#    dpkg --set-selections < spisok_paketov.log
+#Устанавливаем dselect и делаем три:
+#    dselect
+#в окне программы щелкаем 'install' и ждём, ждём и ещё раз ждём
+
+tar zcf $bkp/X11.tar.gz /etc/X11
+tar zcf $bkp/init.tar.gz /etc/init.d
+tar zcf $bkp/apt.tar.gz /etc/apt
+
+
+echo "BACKUP DONE"
+exit 0
+#fi
+
+#if [ $1 == "upload" ]
+# then
+#backing up to other host(you should use pubkey to log in
+#scp * librarian@dakar.sweb.ru:/home/l/librarian/backup
+#fi
+#echo "\n \n \n \n \n LOADING TO SERVER COMPLETE"
+#exit 0

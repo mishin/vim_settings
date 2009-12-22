@@ -1,0 +1,301 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AccountPositioning	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub AccountPositioning($$$){ # проверяем список выданных ХВ на соответствие заданным координатам$/;"	s
+AddBuild	/home/b00/Documents/Scripts/DC/add_build.pl	/^sub AddBuild($){$/;"	s
+Auth	/home/b00/Documents/Scripts/DC/dcplanet/dc_planet.pl	/^sub Auth {$/;"	s
+Authorize	/home/b00/Documents/Scripts/DC/DCSubs.pl	/^sub Authorize($$){$/;"	s
+BOOKMARKS_LOGIN	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^use constant BOOKMARKS_LOGIN => 'b00';$/;"	c
+BOOKMARKS_PASSWORD	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^use constant BOOKMARKS_PASSWORD => '3huhalik15';$/;"	c
+BobrDobrAdd	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^sub BobrDobrAdd($$$){$/;"	s
+CaptchaRecognize	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub CaptchaRecognize($){ # получаем ссылку на капчу, распознаем ее, вычисляем для нее чексумму, сравниваем с базой капч$/;"	s
+ChanSubscribe	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub ChanSubscribe(){$/;"	s
+CreateAccName	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub CreateAccName{ # генерация видимого имени акка и пары Логин=Пароль$/;"	s
+CreateAccount	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub CreateAccount($$$$){ # сажаем акк на ХВ$/;"	s
+CreateCapImage	/home/b00/Documents/Scripts/captcha.pl	/^sub CreateCapImage($$){$/;"	s
+DCGOV_ITERATIONS_COUNT_DEFAULT	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	48;"	d	file:
+DCGOV_OPTIMIZE_METHOD_DEEP_ENHANCE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_DEEP_ENHANCE  = 6,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_ENHANCE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_ENHANCE       = 3,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_FULL	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_FULL          = 1,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_INVALID	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_INVALID       = 0,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_ITERATE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_ITERATE       = 2,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_LIFTUP	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_LIFTUP        = 5,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_SHOW	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_SHOW          = 4,$/;"	e	enum:__anon1	file:
+DCGOV_OPTIMIZE_METHOD_SLOW_ITERATE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    DCGOV_OPTIMIZE_METHOD_SLOW_ITERATE  = 7,$/;"	e	enum:__anon1	file:
+DCGOV_SLOW_ITERATIONS_COUNT_DEFAULT	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	49;"	d	file:
+DESTROY	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub DESTROY {}$/;"	s
+DateTimeOriginal_to_dt	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub DateTimeOriginal_to_dt($)$/;"	s
+FALSE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	40;"	d	file:
+FirstAuth	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/GetCommMail.pl	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/PoliticChanger/politic.pl	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/add_build.pl	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/autocrazy/dnc_log_checker.pl	/^sub FirstAuth($$$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub FirstAuth($$) {$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/getmail/getmail.plx	/^sub FirstAuth($$){$/;"	s
+FirstAuth	/home/b00/Documents/Scripts/DC/planetsShar.pl	/^sub FirstAuth($$){$/;"	s
+FleetCheck	/home/b00/Documents/Scripts/DC/GetCommMail.pl	/^sub FleetCheck($$){$/;"	s
+FleetCheck	/home/b00/Documents/Scripts/DC/autocrazy/dnc_log_checker.pl	/^sub FleetCheck($$$$$){$/;"	s
+FleetCheck	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub FleetCheck($){$/;"	s
+ForegroundDaemon	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub ForegroundDaemon(){ $/;"	s
+GetData	/home/b00/Documents/Scripts/DC/dcplanet/dc_planet.pl	/^sub GetData {$/;"	s
+GetFleetFrameSource	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub GetFleetFrameSource($) {$/;"	s
+GetKnownPlanets	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub GetKnownPlanets($) {$/;"	s
+GetMessage	/home/b00/Documents/Scripts/DC/DCSubs.pl	/^sub GetMessage($$$){$/;"	s
+GetPlanetData	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub GetPlanetData($) {$/;"	s
+GetPlanetFrameSource	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub GetPlanetFrameSource($) {$/;"	s
+GetPlanetOwner	/home/b00/Documents/Scripts/DC/dcplanet/dc_planet.pl	/^sub GetPlanetOwner {$/;"	s
+GetScreenList	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub GetScreenList($$) {$/;"	s
+GovsOptimiser	/home/b00/Documents/Scripts/DC/Economic/pmb+govopt.pl	/^sub GovsOptimiser($){$/;"	s
+GovsOptimiser	/home/b00/Documents/Scripts/DC/Economic/test_big_quee.pl	/^sub GovsOptimiser($){$/;"	s
+GovsOptimiser	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub GovsOptimiser($){$/;"	s
+Help	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub Help($){$/;"	s
+HumanImitation	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub HumanImitation($){$/;"	s
+HumanImitation	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub HumanImitation($){$/;"	s
+IPTC	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package IPTC;$/;"	p
+IncomeReciever	/home/b00/Documents/Scripts/DC/Communicator/private_msg_spammer/pmspam.pl	/^sub IncomeReciever($$){$/;"	s
+LJ_login	/home/b00/Documents/Scripts/LJ/lj-gutnik.pl	/^sub LJ_login($$){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub LogOff(){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/GetCommMail.pl	/^sub LogOff($){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/PoliticChanger/politic.pl	/^sub LogOff($){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/add_build.pl	/^sub LogOff($){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub LogOff($){ # отключаемся от сервера$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/autocrazy/dnc_log_checker.pl	/^sub LogOff($$$){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub LogOff($){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub LogOff() {$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/getmail/getmail.plx	/^sub LogOff(){$/;"	s
+LogOff	/home/b00/Documents/Scripts/DC/planetsShar.pl	/^sub LogOff(){$/;"	s
+LogOut	/home/b00/Documents/Scripts/DC/DCSubs.pl	/^sub LogOut($){$/;"	s
+Login	/home/b00/Documents/Scripts/DC/Economic/pmb+govopt.pl	/^sub Login(){$/;"	s
+Login	/home/b00/Documents/Scripts/DC/Economic/test_big_quee.pl	/^sub Login(){$/;"	s
+Logoff	/home/b00/Documents/Scripts/DC/Economic/pmb+govopt.pl	/^sub Logoff($){$/;"	s
+Logoff	/home/b00/Documents/Scripts/DC/Economic/test_big_quee.pl	/^sub Logoff($){$/;"	s
+MAX_CORRUPT	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	35;"	d	file:
+MAX_DIST	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	37;"	d	file:
+MAX_DIST_SQR	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	38;"	d	file:
+MAX_GOVS	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	34;"	d	file:
+MAX_GOVS_PLACEMENTS	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	45;"	d	file:
+MAX_PLANETS	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	33;"	d	file:
+MAX_THREADS	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^use constant MAX_THREADS=>20;$/;"	c
+MAX_THREADS	/home/b00/Documents/Scripts/DC/add_build.pl	/^use constant MAX_THREADS=>4;$/;"	c
+MailSender	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub MailSender(@){$/;"	s
+Main	/home/b00/Documents/Scripts/DC/Communicator/private_msg_spammer/pmspam.pl	/^sub Main($$\\@){$/;"	s
+MemoriRuAdd	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^sub MemoriRuAdd($$$){$/;"	s
+MessForming	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub MessForming(){$/;"	s
+MisterWongAdd	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^sub MisterWongAdd($$$){$/;"	s
+MoeMestoAdd	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^sub MoeMestoAdd($$$){$/;"	s
+MsgForm	/home/b00/Documents/Scripts/DC/Communicator/private_msg_spammer/pmspam.pl	/^sub MsgForm($){$/;"	s
+NESW	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub NESW { deg2rad($_[0]), deg2rad(90 - $_[1]) }$/;"	s
+Note	/home/b00/Documents/Scripts/DC/PoliticChanger/politic.pl	/^Note:\\t-1 - Undefined$/;"	l
+OPTIMAL_PLACEMENTS_TO_DUMP	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	46;"	d	file:
+OpenPidFile	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub OpenPidFile($){ $/;"	s
+OpenSocket	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub OpenSocket(){$/;"	s
+ParseTiresByAuto	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub ParseTiresByAuto($$$){ # создание списка машин$/;"	s
+Parser_process_node	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub Parser_process_node($@)$/;"	s
+Password	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^     Password:\\r$/;"	l
+PlSharing	/home/b00/Documents/Scripts/DC/planetsShar.pl	/^sub PlSharing($){$/;"	s
+PoliticParser	/home/b00/Documents/Scripts/DC/PoliticChanger/politic.pl	/^sub PoliticParser($$){$/;"	s
+PostComment	/home/b00/Documents/Scripts/LJ/lj-gutnik.pl	/^sub PostComment($$$){$/;"	s
+PrintXML	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub PrintXML($$){$/;"	s
+Processing	/home/b00/Documents/Scripts/DC/dcplanet/dc_planet.pl	/^sub Processing {$/;"	s
+REPEAT	/home/b00/Documents/Scripts/Vkontakte/vkt.pl	/^ REPEAT:$/;"	l
+ReadAccData	/home/b00/Documents/Scripts/DC/autocrazy/dnc_log_checker.pl	/^sub ReadAccData($){$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub ReadConfig(){$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub ReadConfig($){ # читаем основной конфиг, запоминаем настройки$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/dcping/dcping.pl	/^sub ReadConfig(){$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/dcplanet/dc_planet.pl	/^sub ReadConfig {$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/dcplanet/dcplanet-0.5.pl	/^sub ReadConfig {$/;"	s
+ReadConfig	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub ReadConfig($){$/;"	s
+ReadRaceParams	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub ReadRaceParams($){ # читаем параметры расы для акка, настройки подбора температуры$/;"	s
+Read_File	/home/b00/Documents/Scripts/DC/file_read.pl	/^sub Read_File()$/;"	s
+RegisterAcc	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub RegisterAcc($$){ # регистрируем акк в игре, в случае неудачи - останов скрипта$/;"	s
+SITE_NAME	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^use constant SITE_NAME => ' | The lazy quill-driver ~ Ленивый борзописец';$/;"	c
+STDOUT	/home/b00/Documents/Scripts/DC/BattleLogParser/test1.pl	/^format STDOUT =$/;"	f
+SendEmail	/home/b00/Documents/Scripts/guns_alarm.pl	/^sub SendEmail(){$/;"	s
+SetNewValue	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub SetNewValue($$$$)$/;"	s
+StorePlanetMines	/home/b00/Documents/Scripts/DC/Economic/pmb+govopt.pl	/^sub StorePlanetMines($$$){$/;"	s
+StorePlanetMines	/home/b00/Documents/Scripts/DC/Economic/test_big_quee.pl	/^sub StorePlanetMines($$$){$/;"	s
+SubscrActiv	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub SubscrActiv($){ # активируем пробную подписку, запускаем указанный в конфиге скрипт$/;"	s
+TRUE	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	41;"	d	file:
+TargetPostParse	/home/b00/Documents/Scripts/social_bookmarks_auto_sender.pl	/^sub TargetPostParse($){$/;"	s
+TorCheck	/home/b00/Documents/Scripts/DC/Communicator/spammerBad.pl	/^sub TorCheck(){$/;"	s
+TransformModel	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub TransformModel($$){$/;"	s
+UAInit	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^sub UAInit(){ # инициализация юзер-агента, прикидываемся браузером$/;"	s
+UAInit	/home/b00/Documents/Scripts/DC/autocrazy/dnc_log_checker.pl	/^sub UAInit(){ # инициализация юзер-агента, прикидываемся браузером$/;"	s
+UAInit	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub UAInit($$){ # инициализация юзер-агента, прикидываемся браузером$/;"	s
+USE_MEMCPY	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	43;"	d	file:
+WaitUpdating	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub WaitUpdating($){$/;"	s
+YandexCommentParser	/home/b00/Documents/Scripts/LJ/lj-gutnik.pl	/^sub YandexCommentParser(){$/;"	s
+_is_geotagged	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub _is_geotagged($$)$/;"	s
+binary_search_s	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub binary_search_s($$)$/;"	s
+calc_planet_distances	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^calc_planet_distances()$/;"	f	file:
+calc_total_income	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^calc_total_income(int govs_count, int *gov_places)$/;"	f	file:
+calc_total_variants	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^calc_total_variants(int govs_count, int safe_planets)$/;"	f	file:
+corrupt	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int corrupt;        \/* Corruption Index *\/$/;"	m	struct:planet_info_s	file:
+corrupts	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int corrupts[] = {0, 10, 25, 50, 85, 95}; \/* Corruption rule *\/$/;"	v	file:
+dd2dms	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dd2dms {$/;"	s
+deep_enhance_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^deep_enhance_govs_placement(int govs_count, int *govs_placement, int enhanced_steps)$/;"	f	file:
+deep_enhance_step	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^deep_enhance_step(int govs_count, int *govs_placement,$/;"	f	file:
+dest_to_temp	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dest_to_temp($)$/;"	s
+dms2dd	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dms2dd($)$/;"	s
+do_SIGHUP	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub do_SIGHUP(){$/;"	s
+dt_to_DateTimeOriginal	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dt_to_DateTimeOriginal($)$/;"	s
+dtcombine	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dtcombine($$)$/;"	s
+dtexpand	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub dtexpand($)$/;"	s
+dump_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^dump_govs_placement(int govs_count, int *govs_placement)$/;"	f	file:
+dump_optimal_govs_placements	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^dump_optimal_govs_placements(int govs_count, int rows_to_dump)$/;"	f	file:
+dump_planets_distances	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^dump_planets_distances()$/;"	f	file:
+dump_planets_info	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^dump_planets_info(int *govs_placement)$/;"	f	file:
+dump_short_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^dump_short_govs_placement(int govs_count, int *govs_placement)$/;"	f	file:
+enhance_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^enhance_govs_placement(int govs_count, int *govs_placement, int enhanced_steps)$/;"	f	file:
+enhance_step	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^enhance_step(int govs_count, int *govs_placement, int *enhanced_gov, int *enhanced_planet)$/;"	f	file:
+exifTool	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub exifTool($)$/;"	s
+expand_iptc_value	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub expand_iptc_value($$$)$/;"	s
+factorial	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^factorial(int n)$/;"	f	file:
+fill_city	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub fill_city($$$)$/;"	s
+find_optimized_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^find_optimized_govs_placement(int govs_used, int govs_count,$/;"	f	file:
+full_income	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int full_income;    \/* Full income without corruption *\/$/;"	m	struct:planet_info_s	file:
+generate_random_govs_placements	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^generate_random_govs_placements(int govs_count, int *govs_placements)$/;"	f	file:
+getDateTimeOriginal	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub getDateTimeOriginal($)$/;"	s
+get_IPTC_tag	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_IPTC_tag($)$/;"	s
+get_geoinfo_geonames	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_geonames($$$)$/;"	s
+get_geoinfo_geourl	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_geourl($$$)$/;"	s
+get_geoinfo_none	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_none($$$)$/;"	s
+get_geoinfo_osm	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_osm($$$)$/;"	s
+get_geoinfo_wikipedia	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_wikipedia($$$)$/;"	s
+get_geoinfo_zip	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_geoinfo_zip($$$)$/;"	s
+get_point	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_point($)$/;"	s
+get_url_LWP	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_url_LWP($)$/;"	s
+get_url_fakefile	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_url_fakefile($)$/;"	s
+get_url_selfmade	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_url_selfmade($)$/;"	s
+get_val	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub get_val($$)$/;"	s
+gov_no	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int gov_no;         \/* Index of the Governeur that affects on the planet *\/$/;"	m	struct:planet_info_s	file:
+govs	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int govs[MAX_GOVS];$/;"	m	struct:govs_placement_s	file:
+govs_placement_s	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^typedef struct govs_placement_s {$/;"	s	file:
+govs_placement_t	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^} govs_placement_t;$/;"	t	typeref:struct:govs_placement_s	file:
+govs_placements_variants	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int govs_placements_variants = 0;    \/* Amount of variants of $/;"	v	file:
+http	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^http:\/\/www.the-game.ru\/blackframes\/script_debugger\/on\/8529805$/;"	l
+http	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^http:\/\/www.the-game.ru\/blackframes\/script_editor\/on\/8529805\/?action=enable_fleet_script&fleet=8529805&mode=1$/;"	l
+http	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^http:\/\/www.the-game.ru\/frames\/planet_fleets\/on\/planet\/?planetid=1837%3A379&action=create_fleet_from_choosen&new_fleet_name=Crazyscript&fleetx=1837&fleety=379&page_planet=1&nf_check_33354053=on$/;"	l
+http	/home/b00/Documents/Scripts/DC/autocrazy/autocrazy_dnc.pl	/^http:\/\/www.the-game.ru\/frames\/planet_fleets\/on\/planet\/?planetid=1837:379&p=436700_1#null$/;"	l
+hw	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int hw;                   \/* whether the planet is HomeWorld or not *\/$/;"	m	struct:planet_info_s	file:
+image_action_correlate	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub image_action_correlate($$$)$/;"	s
+image_action_delete_geotag	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub image_action_delete_geotag($$$)$/;"	s
+image_file_time_exif	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub image_file_time_exif($$$)$/;"	s
+image_file_time_keep	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub image_file_time_keep($$$)$/;"	s
+image_file_time_modify	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub image_file_time_modify($$$)$/;"	s
+imgInfo	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub imgInfo($)$/;"	s
+income	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int income;         \/* Income with corruption *\/$/;"	m	struct:planet_info_s	file:
+income	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int income;$/;"	m	struct:govs_placement_s	file:
+incomes	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int incomes[] = {100, 90, 75, 50, 15, 5}; \/* Income percentage *\/$/;"	v	file:
+insert_sorted_govs	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^insert_sorted_govs(int govs_count, int *govs_placement, int gov_to_insert)$/;"	f	file:
+interact	/home/b00/Documents/Scripts/DC/goptimise_server/dc_gov_optimise.pl	/^sub interact(){ $/;"	s
+interpolate_calc	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub interpolate_calc($$$)$/;"	s
+interpolate_factor	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub interpolate_factor($$$)$/;"	s
+interpolate_great_circle	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub interpolate_great_circle($$$)$/;"	s
+interpolate_linear	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub interpolate_linear($$$)$/;"	s
+is_geotagged	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub is_geotagged($)$/;"	s
+kml_close	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_close($$)$/;"	s
+kml_create	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_create($)$/;"	s
+kml_write_about	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_about($)$/;"	s
+kml_write_folder_end	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_folder_end($)$/;"	s
+kml_write_folder_start	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_folder_start($$)$/;"	s
+kml_write_footer	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_footer($)$/;"	s
+kml_write_header	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_header($$$)$/;"	s
+kml_write_image	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_image($$$)$/;"	s
+kml_write_image_groundoverlay	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_image_groundoverlay($$$$$)$/;"	s
+kml_write_image_photooverlay	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_image_photooverlay($$$$$$)$/;"	s
+kml_write_image_placemark	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_image_placemark($$$$$$)$/;"	s
+kml_write_image_screenoverlay	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_image_screenoverlay($$$$)$/;"	s
+kml_write_photo_footer	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_photo_footer($)$/;"	s
+kml_write_photo_header	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_photo_header($)$/;"	s
+kml_write_track_line	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_track_line($)$/;"	s
+kml_write_track_timeline	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub kml_write_track_timeline($)$/;"	s
+len	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub len($)$/;"	s
+liftup_gov	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^liftup_gov(int govs_count, int *govs_placement, int gov_to_liftup)$/;"	f	file:
+limit_max_corruption	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int limit_max_corruption = TRUE;     \/* Use max corruption requirements in total income calculations *\/$/;"	v	file:
+list	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub list($)$/;"	s
+load_govs_placement	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^load_govs_placement(char *filename, int *govs_placement, int *govs_count)$/;"	f	file:
+load_planets	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^load_planets(char *filename)$/;"	f	file:
+main	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^main(int argc, char *argv[])$/;"	f
+main	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package main;$/;"	p
+mark	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int mark;                 \/* Is the planet affected by any Governeur *\/$/;"	m	struct:planet_info_s	file:
+max_corrupt	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int max_corrupt;    \/* Maximum acceptable corruption on the planet *\/$/;"	m	struct:planet_info_s	file:
+meta	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package meta;$/;"	p
+meta_exif	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package meta_exif;$/;"	p
+meta_xmp	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package meta_xmp;$/;"	p
+min_income	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int min_income = 0;                  \/* Minimal acceptable income *\/$/;"	v	file:
+neighbs	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int neighbs[MAX_PLANETS]; \/* Indexes of the planet neighbours *\/$/;"	m	struct:planet_info_s	file:
+neighbs_count	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int neighbs_count;        \/* Amount of neighbours (in R < 40Gbm area) *\/$/;"	m	struct:planet_info_s	file:
+new	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub new$/;"	s
+opt	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub opt($)$/;"	s
+optimal_govs_placements	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static govs_placement_t *optimal_govs_placements[MAX_GOVS_PLACEMENTS];$/;"	v	file:
+optimal_govs_placements_count	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int optimal_govs_placements_count = 0;$/;"	v	file:
+optimize_govs_placement_full	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^optimize_govs_placement_full(int govs_count)$/;"	f	file:
+optimize_govs_placement_iterate	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^optimize_govs_placement_iterate(int govs_count, int iterations_count,$/;"	f	file:
+planet_info_s	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^typedef struct planet_info_s {$/;"	s	file:
+planet_info_t	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^} planet_info_t;$/;"	t	typeref:struct:planet_info_s	file:
+planets	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static planet_info_t *planets[MAX_PLANETS]; \/* Planets array *\/$/;"	v	file:
+planets_count	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int planets_count = 0;               \/* Total amount of planets *\/$/;"	v	file:
+power	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^power(int n, int p)$/;"	f	file:
+printpoint	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub printpoint($)$/;"	s
+report_direction_4	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_direction_4($)$/;"	s
+report_direction_8	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_direction_8($)$/;"	s
+report_direction_degree	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_direction_degree($)$/;"	s
+report_direction_none	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_direction_none($)$/;"	s
+report_distance_gen	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_distance_gen($$$$$)$/;"	s
+report_distance_km	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_distance_km($$$)$/;"	s
+report_distance_miles	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_distance_miles($$$)$/;"	s
+report_distance_nautical	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_distance_nautical($$$)$/;"	s
+report_distance_none	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub report_distance_none($$$)$/;"	s
+safe	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int safe;                 \/* whether the planet is safe enough to land$/;"	m	struct:planet_info_s	file:
+safe_planets_count	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int safe_planets_count = 0;          \/* Total amount of safe planets *\/$/;"	v	file:
+setDateTimeOriginal	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub setDateTimeOriginal($$)$/;"	s
+setGPSLatitude	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub setGPSLatitude($$)$/;"	s
+setGPSLongitude	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub setGPSLongitude($$)$/;"	s
+setGPSTimeStamp	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub setGPSTimeStamp($$)$/;"	s
+set_IPTC_tag	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_IPTC_tag($$)$/;"	s
+set_geoinfo	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_geoinfo($$)$/;"	s
+set_geotag_source	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_geotag_source($$)$/;"	s
+set_image_action	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_image_action($$)$/;"	s
+set_image_file_time	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_image_file_time($$)$/;"	s
+set_interpolate	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_interpolate($$)$/;"	s
+set_kml_image_type	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_kml_image_type($$)$/;"	s
+set_kml_placemark_thumbnail_method	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_kml_placemark_thumbnail_method($$)$/;"	s
+set_opt_kml_track_color	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_opt_kml_track_color($$)$/;"	s
+set_opt_kml_track_enable	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_opt_kml_track_enable($$)$/;"	s
+set_opt_select	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_opt_select($$)$/;"	s
+set_option_hashlist	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_option_hashlist($$$$)$/;"	s
+set_option_radiolist	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_option_radiolist($$$$)$/;"	s
+set_report_direction	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_report_direction($$)$/;"	s
+set_report_distance	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_report_distance($$)$/;"	s
+set_tz_guess	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_tz_guess($$)$/;"	s
+set_val	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub set_val($$$)$/;"	s
+sort_govs	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^sort_govs(int govs_count, int *govs_placement)$/;"	f	file:
+sort_optimal_govs_placements	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^sort_optimal_govs_placements(int rows_to_dump)$/;"	f	file:
+sort_planets_by_coords	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^sort_planets_by_coords()$/;"	f	file:
+sort_planets_by_neighbs_count	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^sort_planets_by_neighbs_count()$/;"	f	file:
+sorted_planets	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int sorted_planets[MAX_PLANETS];     \/* Planet indexes sorted by amount of neighbours *\/$/;"	v	file:
+store_segment	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub store_segment($@)$/;"	s
+stripheight	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub stripheight($)$/;"	s
+syntax_error_msg	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static char *syntax_error_msg =$/;"	v	file:
+tag	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub tag($)$/;"	s
+temp_outfile_cleanup	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub temp_outfile_cleanup($)$/;"	s
+test_great_circle_waypoint	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub test_great_circle_waypoint()$/;"	s
+thumbnail_convert	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub thumbnail_convert()$/;"	s
+thumbnail_none	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub thumbnail_none()$/;"	s
+total_variants	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static long long int total_variants = 0;    \/* Total amount of different$/;"	v	file:
+translate	/home/b00/Documents/Scripts/my_perlfunc.pl	/^sub translate($){$/;"	s
+translate	/home/b00/Documents/Scripts/nakolesah_parser/nakolesah_ru_parser.pl	/^sub translate($){$/;"	s
+tz_guess_15deg	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub tz_guess_15deg($)$/;"	s
+tz_guess_zone_tab	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub tz_guess_zone_tab($)$/;"	s
+uniq	/home/b00/Documents/Scripts/gpsPhoto.pl	/^sub uniq(@)$/;"	s
+util	/home/b00/Documents/Scripts/gpsPhoto.pl	/^package util;$/;"	p
+variant_to_show	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static int variant_to_show = -1;            \/* Placement Variant number to show *\/$/;"	v	file:
+variants_processed	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^static long long int variants_processed = 0;\/* Amount of processed$/;"	v	file:
+x	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int x;              \/* XXX coord *\/$/;"	m	struct:planet_info_s	file:
+y	/home/b00/Documents/Scripts/DC/goptimise_server/dcgov.c	/^    int y;              \/* YYY coord *\/$/;"	m	struct:planet_info_s	file:

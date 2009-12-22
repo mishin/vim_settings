@@ -1,0 +1,22 @@
+#!/usr/bin/perl;
+require v5.8.8;
+use warnings;
+use strict;
+
+our $VERSION = 0.02;
+print $VERSION,"\n";
+exit 0;
+sub my_sub {
+    print $VERSION,"\n";
+}
+#split
+#print
+#join
+#foreach
+#grep
+#eval
+#local
+#our
+#my $browser;
+#$browser->responce
+#responce

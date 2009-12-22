@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/b00'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/b00'
+let g:netrw_dirhist_4='/home/b00/Documents'
+let g:netrw_dirhist_5='/home/b00/Documents/Scripts'
+let g:netrw_dirhist_6='/home/b00/Documents/Scripts/DC'
+let g:netrw_dirhist_7='/home/b00/Documents/Scripts/DC/autocrazy'
+let g:netrw_dirhist_8='/home/b00'

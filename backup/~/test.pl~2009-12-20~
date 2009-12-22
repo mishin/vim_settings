@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+$| = 1;
+
+print 'Hello, Dolly!',"\n";
+while (<STDIN>) {
+   print '.';
+
+}
+
+#for (1..5) {
+#  print 'Yeah!',"\n";
+#}
+
+#if (a == b) {
+#   
+#}
+
+
+exit 0;
